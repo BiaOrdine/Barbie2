@@ -1,0 +1,76 @@
+/* Definindo cores principais */
+:root {
+    --cor-roxa: #9b59b6;
+    --cor-rosa: #ff69b4;
+    --fundo-escuro: #8e44ad;
+    --fundo-claro: #f8c6e4;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: var(--fundo-claro);
+    color: var(--fundo-escuro);
+}
+
+header {
+    background-color: var(--cor-roxa);
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 3em;
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+.intro h2 {
+    font-size: 2em;
+    color: var(--cor-rosa);
+    margin-bottom: 20px;
+}
+
+.intro p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1.2em;
+    background-color: var(--cor-rosa);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: var(--cor-roxa);
+}
+
+.imagem img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+footer {
+    background-color: var(--cor-roxa);
+    color: white;
+    padding: 10px;
+    text-align: center;
+    margin-top: 40px;
+}
